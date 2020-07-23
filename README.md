@@ -5,7 +5,7 @@ az vm create --resource-group resourcegroupname --name vmname --image
 
 UbuntuLTS --admin-username ekurbiba --generate-ssh-keys
 ### opening port 5000 for the app
-az vm open-port --port 5000 --resource-group resourcegroupname --name apprun
+az vm open-port --port 5000 --resource-group resourcegroupname --name vmname
 ### creating a vault 
 az keyvault create --location ukwest --name vaultname --resource-group 
 
